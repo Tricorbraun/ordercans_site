@@ -1,5 +1,6 @@
 import React from 'react';
-import BoxComponent from '../../../components/parts/BoxComponent';
+import BoxComponent from '../../../components/parts/info_pages/BoxComponent';
+import FileChecklist from '../../../components/parts/info_pages/FileChecklist';
 
 const ArtworkResources = () => {
   return (
@@ -145,6 +146,10 @@ const ArtworkResources = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        <div>
+          <FileChecklist />
         </div>
       </div>
     </section>
