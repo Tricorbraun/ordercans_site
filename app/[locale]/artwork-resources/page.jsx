@@ -133,7 +133,7 @@ const ArtworkResources = () => {
               Resources for press printed can art are available directly from
               Crown&trade;.
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center hover:opacity-70">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
