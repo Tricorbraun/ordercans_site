@@ -120,25 +120,28 @@ const Faqs = () => {
   ];
 
   return (
-    <section className="vessel_form_wrapper p-6">
-      <h1 className="head_text text-3xl font-bold !text-vp-yellow mb-6">
+    <section className="mx-36 p-6">
+      <h1 className="head_text text-3xl font-bold !text-tb-violet mb-24">
         LABEL ARTWORK FAQ
       </h1>
-      <div className="faq space-y-4">
+      <div className="faq space-y-4 mb-12">
         {faqData.map((faq, index) => (
-          <div
-            key={index}
-            className="faq-item border border-gray-300 rounded-lg p-4"
-          >
-            <div
-              className="faq-question cursor-pointer text-lg font-semibold text-tb-violet"
+          <div key={index}>
+            <button
               onClick={() => toggleFAQ(index)}
+              className="w-full text-left font-bold py-6 px-4 mb-3 bg-vp-yellow rounded transition-colors duration-300"
             >
-              {faq.question}
+              <div className="mx-12">{faq.question}</div>
+            </button>
+            <div
+              className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                activeIndex === index
+                  ? 'max-h-screen opacity-100'
+                  : 'max-h-0 opacity-0'
+              }`}
+            >
+              {faq.answer}
             </div>
-            {activeIndex === index && (
-              <div className="faq-answer mt-2 text-gray-700">{faq.answer}</div>
-            )}
           </div>
         ))}
       </div>

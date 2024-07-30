@@ -9,7 +9,7 @@ const UsefulLinks = () => {
       </h1>
       <div className="flex justify-center w-full flex-column-below-900 items-center">
         <Link
-          href="https://www.vesselpackaging.com/en/faqs"
+          href="https://ordercans.tricorbraun.ca/en/faq"
           rel="noopener noreferrer"
           target="_blank"
           className="text-vp-yellow hover:text-tb-turq font-robotobold text-xl mr-6"
@@ -17,7 +17,7 @@ const UsefulLinks = () => {
           Artwork FAQs
         </Link>
         <Link
-          href="https://www.vesselpackaging.com/en/artwork-resources"
+          href="https://ordercans.tricorbraun.ca/en/artwork-resources"
           rel="noopener noreferrer"
           target="_blank"
           className="text-vp-yellow hover:text-tb-turq  font-robotobold text-xl ml-6"
