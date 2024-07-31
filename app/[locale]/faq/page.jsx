@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import UsefulLinks from '../../../components/UsefulLinks';
 
 const Faqs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -145,6 +146,7 @@ const Faqs = () => {
           </div>
         ))}
       </div>
+      <UsefulLinks />
     </section>
   );
 };

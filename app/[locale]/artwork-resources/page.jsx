@@ -1,6 +1,7 @@
 import React from 'react';
 import BoxComponent from '../../../components/parts/info_pages/BoxComponent';
 import FileChecklist from '../../../components/parts/info_pages/FileChecklist';
+import UsefulLinks from '../../../components/UsefulLinks';
 
 const ArtworkResources = () => {
   return (
@@ -148,10 +149,11 @@ const ArtworkResources = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-12">
           <FileChecklist />
         </div>
       </div>
+      <UsefulLinks />
     </section>
   );
 };

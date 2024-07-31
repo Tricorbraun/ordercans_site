@@ -194,7 +194,7 @@ input[type='number'].no-spin::-ms-clear {
 }
 
 .artwork_wrapper {
-  @apply flex flex-col w-10/12 max-w-custom p-12 small_scrn_less_padding mb-24 mt-12 mx-60 items-center;
+  @apply flex flex-col w-10/12 max-w-custom p-12 small_scrn_less_padding mt-12 mx-60 items-center;
 }
 
 .artwork_header {
