@@ -7,9 +7,9 @@ const ArtworkResources = () => {
   return (
     <section className="artwork_wrapper">
       <h1 className="artwork_header">ARTWORK RESOURCES</h1>
-      <div>
+      <div className="w-full md:w-10/12 flex flex-col items-center">
         <div className="">
-          <div className="flex flex-col gap-6 ml-6">
+          <div className="flex flex-col gap-6 ml-3 md:ml-6">
             <div className="flex flex-row items-center">
               <img
                 src="/assets/PSL_icon.svg"
@@ -18,11 +18,11 @@ const ArtworkResources = () => {
                 alt="pslLogo"
                 className="bg-tb-turq rounded-md p-1"
               />
-              <h2 className="ml-3 text-3xl font-barlowbold leading-11 text-tb-violet">
+              <h2 className="ml-3 text-xl md:text-3xl font-barlowbold leading-tight md:leading-11 text-tb-violet">
                 PRESSURE SENSITIVE LABELS (PSL)
               </h2>
             </div>
-            <p>
+            <p className="text-base md:text-lg">
               Standard size templates that match our standard pricing. For
               custom sizes and Recyc-Québec paper PSLs, please contact
               <a className="text-tb-turq" href="mailto:gfx@vesselpackaging.com">
@@ -33,7 +33,7 @@ const ArtworkResources = () => {
             </p>
           </div>
           <div className="selection_wrapper">
-            <div className="p-12 flex flex-row gap-6">
+            <div className="p-6 md:p-12 flex flex-col gap-6 md:flex-row 760:items-start items-center">
               <BoxComponent
                 title="355ml STD"
                 rect1Text='Get 7.5" x 3.5"'
@@ -68,7 +68,7 @@ const ArtworkResources = () => {
 
         <div className="">
           <div className="flex flex-col gap-6 ml-6">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center gap-6">
               <img
                 src="/assets/SS_icon.svg"
                 height={62}
@@ -76,18 +76,18 @@ const ArtworkResources = () => {
                 alt="pslLogo"
                 className="bg-tb-orange rounded-md p-1"
               />
-              <h2 className="ml-3 text-3xl font-barlowbold leading-11 text-tb-violet">
-                SHRINK SLEEVING (SS))
+              <h2 className="ml-3 text-xl md:text-3xl font-barlowbold leading-tight md:leading-11 text-tb-violet">
+                SHRINK SLEEVING (SS)
               </h2>
             </div>
-            <p>
+            <p className="text-base md:text-lg">
               Our shrink sleeve templates can help you lay out your artwork so
               the important stuff doesn't get distorted by the curved can areas
               and seams.
             </p>
           </div>
           <div className="selection_wrapper">
-            <div className="p-12 flex flex-row gap-6">
+            <div className="p-6 md:p-12 flex flex-col gap-6 items-center md:flex-row">
               <BoxComponent
                 title="355ml STD"
                 rect1Text="Get 355ml STD"
@@ -116,7 +116,7 @@ const ArtworkResources = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="w-full mt-36">
           <div className="flex flex-col gap-6 ml-6">
             <div className="flex flex-row items-center">
               <img

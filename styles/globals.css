@@ -194,11 +194,11 @@ input[type='number'].no-spin::-ms-clear {
 }
 
 .artwork_wrapper {
-  @apply flex flex-col w-10/12 max-w-custom p-12 small_scrn_less_padding mt-12 mx-60 items-center;
+  @apply flex flex-col w-full md:w-10/12 max-w-custom p-6 md:p-12 small_scrn_less_padding mt-12 mx-auto items-center;
 }
 
 .artwork_header {
-  @apply font-barlowbold text-tb-violet text-6xl leading-11 mb-12;
+  @apply font-barlowbold text-tb-violet text-4xl md:text-6xl leading-tight md:leading-11 mb-6 md:mb-12 text-center md:text-left;
 }
 
 .box-container {
