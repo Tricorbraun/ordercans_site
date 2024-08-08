@@ -121,7 +121,7 @@ const Faqs = () => {
   ];
 
   return (
-    <section className="mx-36 p-6">
+    <section className="mx-32 p-6">
       <h1 className="head_text text-3xl font-bold !text-tb-violet mb-24">
         LABEL ARTWORK FAQ
       </h1>
@@ -130,9 +130,9 @@ const Faqs = () => {
           <div key={index}>
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full text-left font-bold py-6 px-4 mb-3 bg-vp-yellow rounded transition-colors duration-300"
+              className="w-full text-left font-bold py-5 items-center mb-3 bg-vp-yellow rounded transition-colors duration-300"
             >
-              <div className="mx-12">{faq.question}</div>
+              <div className="mx-6 text-xs">{faq.question}</div>
             </button>
             <div
               className={`transition-all duration-300 ease-in-out overflow-hidden ${
