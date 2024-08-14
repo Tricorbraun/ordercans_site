@@ -58,12 +58,12 @@ const LabelsOnly = ({ params: { locale } }) => {
   return (
     <>
       <BackButton />
-      <div className="flex justify-center items-center min-h-screen pb-64">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="grid md:grid-cols-2 gap-4 justify-items-center items-center px-40 md:px-14">
           <div
             onClick={handleClick}
             data-value="reorder"
-            className="w-11/12 h-full rounded-lg px-4 py-4 flex items-center justify-center flex-col text-white hover:text-yellow-500 hover:bg-white cursor-pointer hover:bg-opacity-50"
+            className="w-11/12 h-full rounded-lg px-4 py-4 flex items-center justify-center flex-col text-tb-violet hover:text-tb-brown hover:bg-tb-brown bg-tb-gray cursor-pointer hover:bg-opacity-50"
           >
             <img
               src="/assets/icons/reorder.svg"
@@ -83,7 +83,7 @@ const LabelsOnly = ({ params: { locale } }) => {
           <div
             onClick={handleClick}
             data-value="new"
-            className="w-11/12 h-full rounded-lg px-4 py-4 flex items-center justify-center flex-col text-white hover:text-yellow-500 hover:bg-white cursor-pointer hover:bg-opacity-50"
+            className="w-11/12 h-full rounded-lg px-4 py-4 flex items-center justify-center flex-col text-tb-violet hover:text-tb-brown hover:bg-tb-brown bg-tb-gray cursor-pointer hover:bg-opacity-50"
           >
             <img
               src="/assets/icons/new.svg"

@@ -172,8 +172,6 @@ const locations = {
               min: 10,
               max: 420,
               palletOptions: [
-                ['Half/Demie', 10],
-                ['Half/Demie', 11],
                 ['Tall/Grande', 17],
                 ['Full/Complète', 21],
               ],
@@ -182,8 +180,6 @@ const locations = {
               min: 10,
               max: 420,
               palletOptions: [
-                ['Half/Demie', 10],
-                ['Half/Demie', 11],
                 ['Tall/Grande', 17],
                 ['Full/Complète', 21],
               ],
@@ -214,7 +210,6 @@ const locations = {
               min: 8,
               max: 320,
               palletOptions: [
-                ['Half/Demie', 8],
                 ['Short/Court', 13],
                 ['Full/Complète', 16],
               ],
@@ -223,7 +218,6 @@ const locations = {
               min: 8,
               max: 320,
               palletOptions: [
-                ['Half/Demie', 8],
                 ['Short/Court', 13],
                 ['Full/Complète', 16],
               ],
@@ -253,26 +247,17 @@ const locations = {
             'Blank Cans': {
               min: 10,
               max: 320,
-              palletOptions: [
-                ['Half/Demie', 8],
-                ['Full/Complète', 16],
-              ],
+              palletOptions: [['Full/Complète', 16]],
             },
             Printed: {
               min: 10,
               max: 320,
-              palletOptions: [
-                ['Half/Demie', 8],
-                ['Full/Complète', 16],
-              ],
+              palletOptions: [['Full/Complète', 16]],
             },
             'Shrink Sleeve': {
               min: 3,
               max: 560,
-              palletOptions: [
-                ['Half/Demie', 6],
-                ['Full/Complète', 13],
-              ],
+              palletOptions: [['Full/Complète', 13]],
             },
             PSL: {
               min: 3,
@@ -362,7 +347,6 @@ const locations = {
               min: 11,
               max: 420,
               palletOptions: [
-                ['Half/Demie', 11],
                 ['Tall/Grande', 17],
                 ['Full/Complète', 21],
               ],
@@ -371,7 +355,6 @@ const locations = {
               min: 11,
               max: 420,
               palletOptions: [
-                ['Half/Demie', 11],
                 ['Tall/Grande', 17],
                 ['Full/Complète', 21],
               ],
@@ -404,7 +387,6 @@ const locations = {
               min: 8,
               max: 320,
               palletOptions: [
-                ['Half/Demie', 8],
                 ['Short/Courte', 13],
                 ['Full/Complète', 16],
               ],
@@ -413,7 +395,6 @@ const locations = {
               min: 8,
               max: 320,
               palletOptions: [
-                ['Half/Demie', 8],
                 ['Short/Courte', 13],
                 ['Full/Complète', 16],
               ],
@@ -422,7 +403,6 @@ const locations = {
               min: 3,
               max: 560,
               palletOptions: [
-                ['Half/Demie', 7],
                 ['Short/Courte', 13],
                 ['Full/Complète', 16],
               ],
