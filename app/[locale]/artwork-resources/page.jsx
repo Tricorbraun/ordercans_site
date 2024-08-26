@@ -37,29 +37,29 @@ const ArtworkResources = () => {
               <BoxComponent
                 title="355ml STD"
                 rect1Text='Get 7.5" x 3.5"'
-                rect1Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_355mL_STD_7-5x3-5.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/PSL/355mL_STD_7-5x3-5.pdf"
                 rect2Text='Get 8" x 3.5"'
-                rect2Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_355mL_STD_8x3-5.pdf"
+                rect2Link="/assets/Artwork_Resources/PDFs/PSL/355mL_STD_8x3-5.pdf"
                 rectColor="bg-tb-turq"
               />
               <BoxComponent
                 title="473ml STD"
                 rect1Text='Get 7.5" x 5"'
-                rect1Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_473mL_7-5x5.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/PSL/473mL_7-5x5.pdf"
                 rect2Text='Get 8" x 5"'
-                rect2Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_473mL_8x5.pdf"
+                rect2Link="/assets/Artwork_Resources/PDFs/PSL/473mL_8x5.pdf"
                 rectColor="bg-tb-turq"
               />
               <BoxComponent
                 title="355ml SLK"
                 rect1Text='Get 7.5" x 3.5"'
-                rect1Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_355mL_SLK_7x5_437.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/PSL/355mL_SLK_7x5_437.pdf"
                 rectColor="bg-tb-turq"
               />
               <BoxComponent
                 title="250ml SLM"
                 rect1Text='Get 6.5" x 4.4375"'
-                rect1Link="/assets/Artwork_Resources/PDFs/PSL/Vessel_250mL_6_5x4_4375.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/PSL/250mL_6_5x4_4375.pdf"
                 rectColor="bg-tb-turq"
               />
             </div>
@@ -91,25 +91,25 @@ const ArtworkResources = () => {
               <BoxComponent
                 title="355ml STD"
                 rect1Text="Get 355ml STD"
-                rect1Link="/assets/Artwork_Resources/PDFs/SS/Vessel_355mL_STD_Sleeve.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/SS/355mL_STD_Sleeve.pdf"
                 rectColor="bg-tb-orange"
               />
               <BoxComponent
                 title="473ml STD"
                 rect1Text="Get 473ml STD"
-                rect1Link="/assets/Artwork_Resources/PDFs/SS/Vessel_473mL_Sleeve.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/SS/473mL_Sleeve.pdf"
                 rectColor="bg-tb-orange"
               />
               <BoxComponent
                 title="355ml SLK"
                 rect1Text="Get 355ml SLK"
-                rect1Link="/assets/Artwork_Resources/PDFs/SS/Vessel_355mL_SLK_Sleeve.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/SS/355mL_SLK_Sleeve.pdf"
                 rectColor="bg-tb-orange"
               />
               <BoxComponent
                 title="250ml SLM"
                 rect1Text="Get 250ml SLM"
-                rect1Link="/assets/Artwork_Resources/PDFs/SS/Vessel_250mL_Sleeve.pdf"
+                rect1Link="/assets/Artwork_Resources/PDFs/SS/250mL_Sleeve.pdf"
                 rectColor="bg-tb-orange"
               />
             </div>

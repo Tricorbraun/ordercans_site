@@ -19,9 +19,9 @@
         "selectLocation": "Select supply location",
         "Back": "Back",
         "orderSuccess": "Your order has been submitted!",
-        "orderSuccessSubtext": "You will receive an email confirmation shortly. Thank you for choosing Vessel Packaging",
+        "orderSuccessSubtext": "You will receive an email confirmation shortly. Thank you for choosing Tricorbraun",
         "orderFailure": "Something went wrong",
-        "orderFailureSubtext": "Sorry about that, please try again. If the problem persists, please contact your Vessel Rep.",
+        "orderFailureSubtext": "Sorry about that, please try again. If the problem persists, please contact your Tricorbraun Rep.",
         "tryAgain": "Try Again",
         "addAnother": "Add Another Order"
     },
@@ -122,7 +122,7 @@
         "Submitting": "Submitting...",
         "Supplies": "SUPPLIES",
         "TermsOfService": "terms of service",
-        "ByTicking": "By checking this box I confirm that I have read and agree to Vessel Packaging's ",
+        "ByTicking": "By checking this box I confirm that I have read and agree to our ",
         "TotalCans": "Total Cans:",
         "TotalNumberOfEnds": "Total Number of Ends:",
         "TotalPackagedCans": "Total Packaged Cans:",
@@ -131,7 +131,7 @@
         "Unsure": "I don't know",
         "UploadSubmit": "Upload & Submit Order",
         "UseDefaultAddress": "Use My Default Address",
-        "VesselToArrange": "Vessel to Arrange",
+        "VesselToArrange": "Tricorbraun to Arrange",
         "WhiteBopp": "White Bopp",
         "ZipCode": "Zip Code"
     },
@@ -142,7 +142,7 @@
           "otherFileTypes": "Can I submit other file types or PDFs created with other apps (Canva, Quark, Corel, InDesign, etc.) for my artwork?",
           "otherFileTypesAnswer": "We can only accept PDFs created from Adobe Illustrator or Illustrator files (.ai).",
           
-          "designServices": "Will Vessel design my label artwork?",
+          "designServices": "Will Tricorbraun design my label artwork?",
           "designServicesAnswer": "At this time, we do not offer design services. Our graphics department can help guide you through best practices, technical specifications, and options of materials. However, you will need a designer or illustrator for the creative aspects of your artwork.",
           
           "bestPractices": "Where can I find best practices for file preparation for my label artwork?",
@@ -179,7 +179,7 @@
           "colouredOutlineAnswer": "For legibility, white text is outlined when printed in CMYK (flexo). If your white text is on a spot colour background, there is no need for an additional outline.",
           
           "matteVarnish": "I want a matte varnish on my sleeves. Why should it only go to the bottom of the neck?",
-          "matteVarnishAnswer": "Although the chemical is approved for packaging, it is not approved by the FDA or Health Canada for food consumption. If you do want to have the matte varnish go to the top, we would need to have your choice in writing and any varnish related issues will not be the responsibility of Vessel or our print partners.",
+          "matteVarnishAnswer": "Although the chemical is approved for packaging, it is not approved by the FDA or Health Canada for food consumption. If you do want to have the matte varnish go to the top, we would need to have your choice in writing and any varnish related issues will not be the responsibility of Tricorbraun or our print partners.",
 
           "here": "here",
           "hereStop": "here."

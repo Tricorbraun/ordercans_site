@@ -19,7 +19,7 @@
     "selectLocation": "Sélectionnez le lieu d'approvisionnement",
     "Back": "Retour",
     "orderSuccess": "Votre commande a été soumise!",
-    "orderSuccessSubtext": "Vous allez bientôt recevoir un mail de confirmation. Merci d'avoir choisi Vessel Packaging",
+    "orderSuccessSubtext": "Vous allez bientôt recevoir un mail de confirmation. Merci d'avoir choisi Tricorbraun",
     "orderFailure": "Une erreur s'est produite",
     "orderFailureSubtext": "Désolé, veuillez réessayer. Si le problème persiste, veuillez contacter votre représentant",
     "tryAgain": "Essayer à nouveau",
@@ -131,7 +131,7 @@
     "Unsure": "Je ne sais pas",
     "UploadSubmit": "Télécharger & Soumettre la Commande",
     "UseDefaultAddress": "Utiliser Mon Adresse par Défaut",
-    "VesselToArrange": "Organisé par Vessel :",
+    "VesselToArrange": "Organisé par Tricorbraun :",
     "WhiteBopp": "Bopp Blanc",
     "ZipCode": "Code Postal"
   },
@@ -142,7 +142,7 @@
       "otherFileTypes": "Puis-je soumettre d'autres types de fichiers ou des PDF créés avec d'autres applications (Canva, Quark, Corel, InDesign, etc.) pour mon œuvre d'art ?",
       "otherFileTypesAnswer": "Nous ne pouvons accepter que des PDF créés à partir d'Adobe Illustrator ou des fichiers Illustrator (.ai).",
       
-      "designServices": "Vessel va-t-il concevoir mon œuvre d'art pour l'étiquette ?",
+      "designServices": "Tricorbraun va-t-il concevoir mon œuvre d'art pour l'étiquette ?",
       "designServicesAnswer": "Pour le moment, nous n'offrons pas de services de conception. Notre département graphique peut vous guider à travers les meilleures pratiques, les spécifications techniques et les options de matériaux. Cependant, vous aurez besoin d'un designer ou d'un illustrateur pour les aspects créatifs de votre œuvre d'art.",
       
       "bestPractices": "Où puis-je trouver les meilleures pratiques pour la préparation des fichiers de mon œuvre d'art pour l'étiquette ?",
@@ -179,7 +179,7 @@
       "colouredOutlineAnswer": "Pour la lisibilité, le texte blanc est souligné lorsqu'il est imprimé en CMJN (flexo). Si votre texte blanc est sur un fond de couleur spot, il n'est pas nécessaire d'ajouter un contour supplémentaire.",
       
       "matteVarnish": "Je veux un vernis mat sur mes manchons. Pourquoi ne doit-il aller qu'au bas du cou ?",
-      "matteVarnishAnswer": "Bien que le produit chimique soit approuvé pour l'emballage, il n'est pas approuvé par la FDA ou Santé Canada pour la consommation alimentaire. Si vous souhaitez que le vernis mat aille jusqu'en haut, nous aurons besoin de votre choix par écrit et tous les problèmes liés au vernis ne seront pas de la responsabilité de Vessel ou de nos partenaires d'impression.",
+      "matteVarnishAnswer": "Bien que le produit chimique soit approuvé pour l'emballage, il n'est pas approuvé par la FDA ou Santé Canada pour la consommation alimentaire. Si vous souhaitez que le vernis mat aille jusqu'en haut, nous aurons besoin de votre choix par écrit et tous les problèmes liés au vernis ne seront pas de la responsabilité de Tricorbraun ou de nos partenaires d'impression.",
       
       "here": "ici",
       "hereStop": "ici."
