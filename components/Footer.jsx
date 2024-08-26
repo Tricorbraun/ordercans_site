@@ -9,17 +9,12 @@ const Footer = () => {
           <div className="mb-4">
             <div className="vessel_addresses">
               <div>
-                <p className="font-robotobold">Vessel BC Head Office</p>
-                <p>8250 Borden Street</p>
-                <p>Vancouver, BC V5P 3E7</p>
+                <p className="font-robotobold">Tricorbraun BC Office</p>
+                <p>500-1650 Brigantine Dr</p>
+                <p>Coquitlam, BC V3K 7B5</p>
               </div>
               <div>
-                <p className="font-robotobold">Vessel Ontario</p>
-                <p>5665 Kennedy Rd</p>
-                <p>Mississauga, ON, L4Z 3E1</p>
-              </div>
-              <div>
-                <p className="font-robotobold">Vessel Alberta</p>
+                <p className="font-robotobold">Tricorbraun Alberta</p>
                 <p>Bay 21, 10099 – 15th Street NE</p>
                 <p>Calgary, AB, T3J 0T7</p>
               </div>
@@ -30,7 +25,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:justify-end">
             <div className="flex flex-col mb-4 md:mb-0 font-roboto">
               <Link
-                href="https://www.vesselpackaging.com/en/about-us"
+                href="https://tricorbraun.ca/cans"
                 className="text-tb-violet hover:text-vp-yellow"
               >
                 ABOUT US
@@ -40,20 +35,6 @@ const Footer = () => {
                 className="text-tb-violet hover:text-vp-yellow"
               >
                 CAREERS
-              </Link>
-            </div>
-            <div className="flex flex-col md:ml-4 font-roboto">
-              <Link
-                href="https://www.vesselpackaging.com/en/locations"
-                className="text-tb-violet hover:text-vp-yellow"
-              >
-                LOCATIONS
-              </Link>
-              <Link
-                href="https://www.instagram.com/vesselpackagingco/"
-                className="text-tb-violet hover:text-vp-yellow"
-              >
-                INSTAGRAM
               </Link>
             </div>
           </div>
