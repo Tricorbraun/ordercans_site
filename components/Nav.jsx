@@ -9,6 +9,7 @@ const Nav = () => {
       <Link href="/" className="flex gap-2">
         <Image
           src="/assets/tricor_canada.png"
+          priority
           alt="vessel logo"
           width={300}
           height={300}
