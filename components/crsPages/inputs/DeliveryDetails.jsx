@@ -18,6 +18,7 @@ function DeliveryDetails({
   const handleSubmittedByChange = (e) => {
     setSubmittedBy(e.target.value);
     setField('submittedBy', e.target.value);
+    setErrors({ ...errors, submittedBy: null });
   };
 
   const handleRequestedShipDateChange = (date) => {
@@ -38,14 +39,13 @@ function DeliveryDetails({
         >
           <option value="">Select...</option>
           <option value="Derick Neumeier">Derick Neumeier</option>
-          <option value="Rachel Forbes">Rachel Forbes</option>
           <option value="Katrina Dickson">Katrina Dickson</option>
-          <option value="Zander Reed">Zander Reed</option>
           <option value="Andres Ramos">Andres Ramos</option>
           <option value="Marlee MacDonald">Marlee MacDonald</option>
           <option value="Adrienne Cafe">Adrienne Cafe</option>
           <option value="Essaddik Fathallah">Essaddik Fathallah</option>
           <option value="Matt Hume">Matt Hume</option>
+          <option value="Rhys Wood">Rhys Wood</option>
         </select>
         {submittedByErrors && (
           <div className="error-message">{submittedByErrors}</div>

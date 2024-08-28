@@ -26,6 +26,7 @@ export const usePrintedStore = create((set) => ({
     deliveryPhone: '',
     deliveryEmail: '',
     aptRequired: false,
+    shipFrom: '',
     shipDate: '',
     customerComments: '',
     landedCost: false,

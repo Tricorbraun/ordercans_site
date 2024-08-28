@@ -61,6 +61,7 @@ const CrsPrinted = ({ params: { locale } }) => {
 
     if (!order.shipToAddress)
       formErrors.shipToAddress = 'Ship To Address missing';
+    if (!order.shipFrom) formErrors.shipFrom = 'Ship-From Location missing';
     if (!order.deliveryName) formErrors.deliveryName = 'Delivery Name missing';
     if (!order.deliveryPhone)
       formErrors.deliveryPhone = 'Delivery Phone missing';
@@ -208,6 +209,7 @@ const CrsPrinted = ({ params: { locale } }) => {
           <div className="mb-4 justify-center">
             <DeliveryAddress
               shipToAddressError={errors.shipToAddress}
+              shipFromError={errors.shipFrom}
               setErrors={setErrors}
               errors={errors}
             />
