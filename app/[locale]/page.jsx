@@ -79,7 +79,7 @@ const LoginPage = ({ params: { locale } }) => {
       ) : (
         <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 min-h-screen-minus-210">
           {' '}
-          <div className="max-w-md w-full space-y-8 p-6 border-solid border-2 border-black bg-vp-orchid rounded-xl shadow-md ">
+          <div className="max-w-md w-full space-y-8 p-6 border-solid border-2 border-black bg-tb-light-gray rounded-xl shadow-md ">
             <h1 className="text-3xl font-bold text-center mb-6 font-barlowbold text-tb-violet">
               {t('companyInformation')}
             </h1>

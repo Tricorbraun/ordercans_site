@@ -15,6 +15,22 @@
   src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'tb-avenir-med';
+  src: url('/fonts/Avenir/Avenir-MediumOblique.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tb-avenir-roman';
+  src: url('/fonts/Avenir/Avenir-Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tb-avenir-light';
+  src: url('/fonts/Avenir/Avenir-Light.ttf') format('truetype');
+}
+
+
 /* Hide the spin button on number inputs with the no-spin class */
 input[type="number"].no-spin::-webkit-inner-spin-button,
 input[type="number"].no-spin::-webkit-outer-spin-button {
