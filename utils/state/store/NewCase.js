@@ -17,6 +17,7 @@ export const useCaseStore = create((set) => ({
     product: '',
     cost: '',
     description: '',
+    artwork: '',
     resolution: '',
   },
   setField: (field, value) =>

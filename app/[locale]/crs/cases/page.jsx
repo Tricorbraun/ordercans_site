@@ -14,6 +14,7 @@ import BusinessArea from '../../../../components/cases_form/BusinessArea';
 import Product from '../../../../components/cases_form/Product';
 import Description from '../../../../components/cases_form/Description';
 import Cost from '../../../../components/cases_form/Cost';
+import ArtworkIssue from '../../../../components/cases_form/ArtworkIssue';
 
 const Cases = ({ params: { locale } }) => {
   const router = useRouter();
@@ -168,6 +169,9 @@ const Cases = ({ params: { locale } }) => {
             <div className="w-1/6 width-100-below-900">
               <Cost />
             </div>
+            {/* <div className="w-1/6 width-100-below-900">
+              <ArtworkIssue />
+            </div> */}
           </div>
           <h2 className="text-xs ml-6">* Required</h2>
 
