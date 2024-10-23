@@ -30,6 +30,7 @@ const Priority = ({ error, setErrors, errors }) => {
     'Shipping',
     'Accounting/Billing',
     'GFX/Labels',
+    'Crown Artwork Issue',
     'Inventory',
     'Positive Feedback',
     'Negative Feedback',
