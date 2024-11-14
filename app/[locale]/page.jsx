@@ -138,9 +138,10 @@ const LoginPage = ({ params: { locale } }) => {
                   className="vessel_login_input"
                 >
                   <option value="">{t('selectLocation')}</option>
-                  <option value="Vancouver">Vancouver</option>
                   <option value="Calgary">Calgary</option>
-                  <option value="Mississauga">Mississauga</option>
+                  <option value="Seattle">Seattle</option>
+                  <option value="Toronto">Toronto</option>
+                  <option value="Vancouver">Vancouver</option>
                 </select>
               </div>
               <div>
