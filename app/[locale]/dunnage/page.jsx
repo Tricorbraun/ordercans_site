@@ -7,7 +7,7 @@ const Dunnage = () => {
       <div>
         <div className="gap-4 justify-items-center items-center mb-12 ml-22 mr-22 px-6 md:px-14">
           <a
-            href="/assets/dunnagePolicy/dunnageEN.pdf"
+            href="/assets/dunnagePolicy/dunnagePolicy.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-12 mb-12 rounded-lg px-4 py-4 m-2 flex items-center justify-center flex-col space-y-4 text-white hover:text-tb-brown hover:bg-tb-green/50 bg-tb-green cursor-pointer"
