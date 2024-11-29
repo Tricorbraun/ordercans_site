@@ -168,15 +168,15 @@ const Type = ({ params: { locale } }) => {
             href="https://app.smartsheet.com/b/form/b5eb22408acd4292b757817d706b691b" 
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full h-72 rounded-lg px-4 py-4 m-2 flex items-center justify-center flex-col space-y-4 text-tb-violet hover:text-tb-brown hover:bg-tb-brown bg-tb-gray bg-opacity-40 cursor-pointer hover:bg-opacity-25;"
+            className="w-full h-72 rounded-lg px-4 py-4 m-2 flex items-center justify-center flex-col space-y-4 text-black hover:text-vp-orchid hover:bg-tb-gray hover:bg-opacity-40 bg-tb-white bg-opacity-40 border-solid border-black cursor-pointer hover:bg-opacity-25;"
           >
-            <div className="p-4 flex flex-col items-center">
+            <div className="p-4 flex flex-col items-center ">
               <img
                 src="/assets/icons/right-arrow.png"
                 alt="Supplies Icon"
                 className="w-24 h-24"
               />
-              <h1 className="font-barlowbold text-vp-orchid text-center text-2xl mt-2">
+              <h1 className="font-barlowbold text-center text-2xl mt-2">
                 {t('FTL')}
               </h1>
             </div>
