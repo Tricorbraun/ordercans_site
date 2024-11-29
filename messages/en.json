@@ -41,7 +41,8 @@
         "REORDERsubtextLabel": "Order flexographic Shrink Sleeves for an existing SKU with no modifications to label artwork",
         "NEW": "ORDER A NEW OR UPDATED SKU",
         "NEWsubtext": "Order decorated cans and submit artwork for a new or modified SKU",
-        "NEWsubtextLabel": "Order flexographic Shrink Sleeves and submit artwork for a new or modified SKU"
+        "NEWsubtextLabel": "Order flexographic Shrink Sleeves and submit artwork for a new or modified SKU",
+        "FTL": "Existing FTL/Printed Can Customers, Click Here"
     },
     "Forms": {
         "1way": "1-Way (Wooden)",

@@ -41,7 +41,8 @@
     "REORDERsubtextLabel": "Commandez des étiquettes pour une UGS existante sans modifications de l'artwork de l'étiquette",
     "NEW": "COMMANDEZ UNE NOUVELLE UGS OU UNE UGS MODIFIÉE",
     "NEWsubtext": "Commandez des canettes décorées et soumettez des artworks pour une nouveau UGS ou une UGS modifiée",
-    "NEWsubtextLabel": "Commandez des canettes décorées et soumettez des artworks pour une nouveau UGS ou une UGS modifiée"
+    "NEWsubtextLabel": "Commandez des canettes décorées et soumettez des artworks pour une nouveau UGS ou une UGS modifiée",
+    "FTL": "Clients FTL/boîtes imprimées existants, cliquez ici"
   },
   "Forms": {
     "1way": "Unidirectionnel (Bois)",
