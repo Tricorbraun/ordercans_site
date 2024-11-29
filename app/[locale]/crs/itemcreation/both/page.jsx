@@ -3,7 +3,19 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 const both = () => {
-  const [submission, setSubmission] = useState();
+  const [submission, setSubmission] = useState({
+    personSubmitting: '',
+    itemNumber: '',
+    brand: '',
+    vendorItemNum: '',
+    vendorName: '',
+    vendorAccountNum: '',
+    newCustItemNum: '',
+    countryOfOrigin: '',
+    siteLocation: '',
+    defaultItemStatus: '',
+
+  });
 
   return (
     <>
