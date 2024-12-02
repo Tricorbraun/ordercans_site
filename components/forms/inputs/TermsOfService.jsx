@@ -24,7 +24,7 @@ const TermsOfService = ({ error, setErrors, errors }) => {
           {'\u00A0'}{' '}
           <a
             className="text-vp-yellow"
-            href="http://www.vesselpackaging.com/terms"
+            href="https://tac.tricorbraun.com/SOTCOCA1"
             target="_blank"
           >
             {t('TermsOfService')}
