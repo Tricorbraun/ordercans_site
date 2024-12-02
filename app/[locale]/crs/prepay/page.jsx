@@ -38,7 +38,7 @@ const PrePay = () => {
     e.preventDefault();
 
     // Check if bank details, sales order, and contact email are provided
-    if (!order.bankDetails || !order.file || !order.email) {
+    if (!order.file || !order.email) {
       alert(
         'Please provide bank details attachment, sales order attachment, and contact email.',
       );
@@ -197,63 +197,6 @@ const PrePay = () => {
               className="vessel_login_input h-24"
               onChange={(e) => setOrder({ ...order, comments: e.target.value })}
             ></textarea>
-          </div>
-
-          <div className="w-full px-3 mb-6 md:mb-0">
-            <label className="vessel_login_label">
-              Bank Details Attachment
-            </label>
-            <div>
-              <label>
-                <input
-                  type="radio"
-                  name="bankDetails"
-                  className="mr-4"
-                  checked={order.bankDetails === 'CAD'}
-                  onChange={(e) =>
-                    setOrder({
-                      ...order,
-                      bankDetails: 'CAD',
-                    })
-                  }
-                />
-                CAD
-              </label>
-            </div>
-            <div>
-              <label>
-                <input
-                  type="radio"
-                  name="bankDetails"
-                  checked={order.bankDetails === 'USD_CAD_Customer'}
-                  className="mr-4"
-                  onChange={(e) =>
-                    setOrder({
-                      ...order,
-                      bankDetails: 'USD_CAD_Customer',
-                    })
-                  }
-                />
-                USD (Cad Customer)
-              </label>
-            </div>
-            <div>
-              <label>
-                <input
-                  type="radio"
-                  name="bankDetails"
-                  checked={order.bankDetails === 'USD_US_Customer'}
-                  className="mr-4"
-                  onChange={(e) =>
-                    setOrder({
-                      ...order,
-                      bankDetails: 'USD_US_Customer',
-                    })
-                  }
-                />
-                USD (US Customers)
-              </label>
-            </div>
           </div>
 
           <div className="flex flex-col items-center">
