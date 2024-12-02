@@ -5,7 +5,7 @@ const UsefulLinks = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="font-barlowbold text-tb-violet text-center text-2xl">
-        HELPFUL LABEL LINKS
+        HELPFUL LINKS
       </h1>
       <div className="flex justify-center w-full flex-column-below-900 items-center">
         <Link
