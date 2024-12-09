@@ -34,7 +34,7 @@ const PrePay = () => {
     'Louis Shingler': 'louis.Shingler@tricorbraun.com',
     'Derick Neumeier': 'derick.neumeier@tricorbraun.com',
     'Katrina Dickson': 'katrina.dickson@tricorbraun.com',
-    'Matt Hume': 'matthew.hume@tricorbraun.com',
+    'Matt Hume': 'matt.hume@tricorbraun.com',
     'Andres Ramos': 'andres.ramos@tricorbraun.com',
     'Essaddik Fathallah': 'essaddik.fathallah@tricorbraun.com',
     'Isabelle Seguin': 'isabelle.seguin@tricorbraun.com',
