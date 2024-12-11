@@ -18,6 +18,29 @@ const DatePickerSection = ({ error, setErrors, errors }) => {
   const [leadtime, setLeadtime] = useState(null);
 
   useEffect(() => {
+    const calculateLeadtime = () => {
+      const initialLeadtime = getLeadtime(order, leadtimes);
+
+      // Get current local time of the user
+      const now = new Date();
+      const hour = now.getHours();
+
+      // Check if it's past 12 PM and if the order type matches the criteria
+      const isPastNoon = hour >= 12;
+      const shouldAddExtraDay =
+        (order.orderType === 'blankcans' || order.orderType === 'suppliesonly') &&
+        isPastNoon;
+
+      // Adjust lead time if needed
+      let adjustedLeadtime = initialLeadtime;
+      if (shouldAddExtraDay) {
+        adjustedLeadtime++;
+      }
+
+      setLeadtime(adjustedLeadtime);
+      console.log('adjustedLeadtime', adjustedLeadtime);
+    };
+
     if (
       order.orderType === 'canapp' ||
       order.orderType === 'suppliesonly' ||
@@ -26,8 +49,7 @@ const DatePickerSection = ({ error, setErrors, errors }) => {
         order.application &&
         order.printingType)
     ) {
-      setLeadtime(getLeadtime(order, leadtimes));
-      console.log('leadtime', leadtime);
+      calculateLeadtime();
     }
   }, [
     order.orderType,
@@ -56,6 +78,7 @@ const DatePickerSection = ({ error, setErrors, errors }) => {
   }
 
   const minDate = addBusinessDays(new Date(), leadtime);
+  console.log(minDate);
   const maxDate = parse('12/07/2024', 'dd/MM/yyyy', new Date());
 
   return (
