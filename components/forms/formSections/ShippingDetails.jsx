@@ -14,6 +14,7 @@ const ShippingDetails = ({
   const { setField, order } = useOrderStore();
   const [dunnageType, setDunnageType] = useState('');
   const [deliveryMethod, setDeliveryMethod] = useState('');
+  const [liftGate, setLiftGate] = useState(false);
 
   const handleDunnageTypeChange = (e) => {
     const value = e.target.value;
@@ -27,6 +28,12 @@ const ShippingDetails = ({
     setDeliveryMethod(value);
     setField('deliveryMethod', value);
     setErrors({ ...errors, deliveryMethod: null });
+  };
+
+  const handleLiftGate = (e) => {
+    const value = e.target.checked;
+    setLiftGate(value);
+    setField('liftGate', value);
   };
 
   return (
@@ -64,6 +71,23 @@ const ShippingDetails = ({
             </label>
             {deliveryMethodError && (
               <div className="error-message">{deliveryMethodError}</div>
+            )}
+            {deliveryMethod === 'vesselToArrange' && (
+              <div className="flex items-center mb-4 mt-2 ml-3">
+                <input
+                  id="liftgate-checkbox"
+                  type="checkbox"
+                  checked={liftGate}
+                  onChange={handleLiftGate}
+                  className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500"
+                />
+                <label
+                  htmlFor="liftgate-checkbox"
+                  className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Lift Gate Required?
+                </label>
+              </div>
             )}
           </div>
 

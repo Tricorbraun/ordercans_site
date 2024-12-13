@@ -23,6 +23,7 @@ export const useOrderStore = create((set) => ({
     address: '',
     PO: '',
     deliveryMethod: '',
+    liftGate: false,
     dunnageType: '',
     date: '',
     copackerEmail: '',
