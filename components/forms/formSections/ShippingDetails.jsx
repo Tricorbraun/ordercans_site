@@ -122,7 +122,7 @@ const ShippingDetails = ({
             </label>
             <p className="text-sm text-vp-yellow">
               <a
-                href="https://uploads-ssl.webflow.com/5cf6ee7465fae562145a7a17/6531af8fe5afb00b2f1d09d7_Vessel%202023%20Dunnage%20Program%20-%20FINAL%20-%20October%2019%202023%20Update.pdf"
+                href="https://ordercans.tricorbraun.ca/assets/dunnagePolicy/dunnagePolicy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
