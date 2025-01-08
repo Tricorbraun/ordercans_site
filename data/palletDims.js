@@ -59,7 +59,7 @@ export default function getPalletInfo(location, canSize, application) {
     cansPerLayer: {
       '355ml STD': 389,
       '355ml Sleek': 506,
-      '250ml Slim': 575,
+      '250ml Slim': 586,
       '473ml STD': 389,
     },
   };
